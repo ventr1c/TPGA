@@ -1,5 +1,12 @@
 # Are You Using Reliable Graph Prompts? Trojan Prompt Attacks on Graph Neural Networks
-This is the official implementation of "Are You Using Reliable Graph Prompts? Trojan Prompt Attacks on Graph Neural Networks". 
+This is the official implementation of "Are You Using Reliable Graph Prompts? Trojan Prompt Attacks on Graph Neural Networks". (KDD 2025) If you find this repo to be useful, please cite our paper. Thank you.
+```
+@inproceedings{lin2025areyou,
+  title={Are You Using Reliable Graph Prompts? Trojan Prompt Attacks on Graph Neural Networks},
+  author={Lin, Minhua and Zhang, Zhiwei and Dai, Enyan and Wu, Zongyu and Wang, Yilong and Zhang, Xiang and Wang, Suhang},
+  booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+}
+```
 
 ## Content
 - [Are You Using Reliable Graph Prompts? Trojan Prompt Attacks on Graph Neural Networks](#are-you-using-reliable-graph-prompts-trojan-prompt-attacks-on-graph-neural-networks)
