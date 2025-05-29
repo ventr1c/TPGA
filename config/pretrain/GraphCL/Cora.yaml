@@ -1,0 +1,31 @@
+GCN:
+  epochs: 100
+  batch_size: 128
+  pooling_type: 'sum'
+  hid_dim: 128
+  num_layer: 2
+  num_parts: 100
+  lr: 0.001
+  weight_decay: 0.00005
+  node_drop_1: 0.1
+  feat_mask_1: 0.2
+  edge_drop_1: 0.4
+  node_drop_2: 0.1
+  feat_mask_2: 0.1
+  edge_drop_2: 0.1
+
+GIN:
+  epochs: 100
+  batch_size: 128
+  pooling_type: 'sum'
+  hid_dim: 128
+  num_layer: 2
+  num_parts: 100
+  lr: 0.001
+  weight_decay: 0.00005
+  node_drop_1: 0.1
+  feat_mask_1: 0.2
+  edge_drop_1: 0.4
+  node_drop_2: 0.1
+  feat_mask_2: 0.1
+  edge_drop_2: 0.1

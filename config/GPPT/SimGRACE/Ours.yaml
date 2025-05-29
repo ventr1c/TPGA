@@ -1,0 +1,109 @@
+Cora:
+  device_id: 3
+  epochs: 100
+  prompt_lr: 0.01
+  prompt_weight_decay: 0.0005
+  answering_lr: null
+  answering_weight_decay: null
+  dt_batch_size: 1024
+
+
+  trojan_outter_epochs: 2000
+  poison_ratio: 1.5
+  trigger_size: 3
+  target_class: 0
+  loss_bkd_weight: 1
+
+  hid_dim: 128
+  trojan_pg_lr: 0.01
+  trojan_pg_weight_decay: 0
+  trigger_lr: 0.01
+  trigger_weight_decay: 0
+  trojan_batch_size: 1024
+ 
+  trojan_dt_lr: null
+  trojan_dt_weight_decay: null
+
+Citeseer:
+  device_id: 3
+  epochs: 100
+  prompt_lr: 0.01
+  prompt_weight_decay: 0.0005
+  answering_lr: null
+  answering_weight_decay: null
+  dt_batch_size: 1024
+  
+  loss_bkd_weight: 2
+  trojan_outter_epochs: 2000
+  poison_ratio: 1.5
+  trigger_size: 1
+  target_class: 1
+
+  hid_dim: 128
+  trojan_pg_lr: 0.01
+  trojan_pg_weight_decay: 0
+  trigger_lr: 0.001
+  trigger_weight_decay: 0
+  trojan_batch_size: 1024
+ 
+  trojan_dt_lr: null
+  trojan_dt_weight_decay: null
+
+
+  trojan_dt_lr: null
+  trojan_dt_weight_decay: null
+
+Pubmed:
+  device_id: 3
+  epochs: 100
+  prompt_lr: 0.01
+  prompt_weight_decay: 0.0005
+  answering_lr: null
+  answering_weight_decay: null
+  dt_batch_size: 1024
+  
+  loss_bkd_weight: 2
+  trojan_outter_epochs: 2000
+  poison_ratio: 5
+  trigger_size: 1
+  target_class: 1
+
+  hid_dim: 512
+  trojan_pg_lr: 0.01
+  trojan_pg_weight_decay: 0
+  trigger_lr: 0.001
+  trigger_weight_decay: 0
+  trojan_batch_size: 1024
+ 
+  trojan_dt_lr: null
+  trojan_dt_weight_decay: null
+
+
+  trojan_dt_lr: null
+  trojan_dt_weight_decay: null
+
+ogbn-arxiv:
+  device_id: 3
+  epochs: 100
+  prompt_lr: 0.01
+  prompt_weight_decay: 0.0005
+  answering_lr: null
+  answering_weight_decay: null
+  dt_batch_size: 1024
+
+
+  trojan_outter_epochs: 740
+  poison_ratio: 1.5
+  trigger_size: 3
+  target_class: 0
+  loss_bkd_weight: 1
+
+  hid_dim: 512
+  trojan_pg_lr: 0.01
+  trojan_pg_weight_decay: 0
+  trigger_lr: 0.01
+  trigger_weight_decay: 0
+  trojan_batch_size: 1024
+ 
+  trojan_dt_lr: null
+  trojan_dt_weight_decay: null

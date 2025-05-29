@@ -1,0 +1,21 @@
+GCN:
+  device_id: 3
+  epochs: 200
+  batch_size: 1024
+  pooling_type: 'sum'
+  hid_dim: 512
+  num_layer: 2
+  num_parts: 100
+  lr: 0.0005
+  weight_decay: 0.00005
+
+GIN:
+  device_id: 1
+  epochs: 100
+  batch_size: 128
+  pooling_type: 'sum'
+  hid_dim: 128
+  num_layer: 2
+  num_parts: 100
+  lr: 0.001
+  weight_decay: 0.0001 
